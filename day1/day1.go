@@ -8,6 +8,9 @@ import (
 	"strconv"
 )
 
+// calcAllFuel - Recurisvely calculates the amount of fuel required for an original given mass
+// Used for Day 1: Part 2
+
 func calcAllFuel(mass int) int {
 
 	var fuel = (mass / 3) - 2
